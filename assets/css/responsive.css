@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) {
+  .typeH {
+    font-size: large;
+  }
+  .typingheader {
+    font-size: large;
+  }
+
+  .left {
+    width: 98%;
+  }
+  .right {
+    width: 98%;
+  }
+
+  .aboutbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contactme {
+    width: 90%;
+    left: auto;
+    right: auto;
+    overflow: auto;
+    margin: 0;
+  }
+
+  .aboutbody .right .iconF {
+    padding: 0;
+  }
+  /* nav bar */
+  .nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header .nav ul li a {
+    font-size: small;
+  }
+
+  .nav ul li {
+    margin-top: 5px;
+  }
+
+  .skiils{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .skiils .right{
+    overflow-x: auto;
+  }
+
+  .myproject .rowPro{
+    flex-direction: column;
+  }
+  .project {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  
+}
+

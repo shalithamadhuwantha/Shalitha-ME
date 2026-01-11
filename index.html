@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=" assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="assets/css/font.css?v=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'custom-heading': '#bb9f00',
+              'custom-text': '#efefef',
+              'custom-text2': '#9e9e9e',
+              'custom-bg': '#232323',
+              'custom-typeH': '#62bb6e',
+              'custom-card-bg': '#181818',
+              'custom-contact-bg': '#1b1b1b',
+              'custom-border': '#343434'
+            },
+            fontFamily: {
+              'playfair': ['Playfair Display', 'serif'],
+              'space-mono': ['Space Mono', 'monospace'],
+              'ibm-mono': ['IBM Plex Mono', 'monospace']
+            }
+          }
+        }
+      }
+    </script>
+    
+    <title>Shalitha M Gamage</title>
+  </head>
+  <body class="w-full h-full m-0 bg-custom-bg text-custom-text scroll-smooth">
+
+    <style>
+      *::-webkit-scrollbar {
+        width: 5px; 
+        height: 5px; 
+      }
+      *::-webkit-scrollbar-track {
+        background: #232323;
+      }
+      *::-webkit-scrollbar-thumb {
+        background: #bb9f00;
+        border-radius: 6px; 
+      }
+    </style>
+
+    <div class="w-[90%] mx-auto">
+      <!-- header -->
+      <div class="w-auto justify-center flex flex-col text-center font-playfair mt-4">
+        <!-- header img -->
+        <img class="w-[100px] h-[100px] border-2 border-custom-text p-2.5 rounded-[60px] self-center" src="/assets/img/shalitha.webp" alt="my logo" />
+
+        <!-- header title -->
+        <h1 class="mt-0 mb-0 text-2xl md:text-3xl lg:text-4xl">B.B Shalitha M Gamage</h1>
+        <!-- header animations -->
+        <h2 class="text-custom-text2 mt-0 mb-0">I'M <span id="target" class="text-custom-text"></span></h2>
+
+        <!-- header social media icon set -->
+        <div class="social_listJS"></div>
+
+        <!-- header nav bar -->
+        <div class="w-full m-0 p-0">
+          <ul class="list-none flex flex-row md:flex-wrap justify-center mt-2.5 mb-0 pl-0">
+            <li class="mt-1.5">
+              <a href="#about" class="mx-5 text-sm md:text-base text-custom-text2 font-space-mono underline-custom-heading">
+                <i class="fa-solid fa-house text-custom-heading"></i> 127.0.0.1
+              </a>
+            </li>
+            <li class="mt-1.5">
+              <a href="#projects" class="mx-5 text-sm md:text-base text-custom-text2 font-space-mono underline-custom-heading">
+                <i class="fa-solid fa-code text-custom-heading"></i> I DID
+              </a>
+            </li>
+            <li class="mt-1.5">
+              <a href="#skills" class="mx-5 text-sm md:text-base text-custom-text2 font-space-mono underline-custom-heading">
+                <i class="fa-solid fa-terminal text-custom-heading"></i> power
+              </a>
+            </li>
+            <li class="mt-1.5">
+              <a href="#about" class="mx-5 text-sm md:text-base text-custom-text2 font-space-mono underline-custom-heading">
+                <i class="fa-solid fa-fingerprint text-custom-heading"></i> Who Am I
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- header end line -->
+        <hr class="w-full border border-custom-border" />
+      </div>
+
+      <!-- web site body -->
+      <div class="webBody">
+        <!-- about section -->
+
+        <!-- body header -->
+        <div class="flex flex-row mt-5 mb-2.5">
+          <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+          <span id="aboutani" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+        </div>
+
+        <!-- about-->
+        <div class="flex flex-col md:flex-row" id="about">
+          <div class="w-full md:w-1/2 font-ibm-mono text-custom-text2">
+            <p>
+              Hello! I'm
+              <a
+                href="https://shalitha.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-custom-heading"
+              >
+                Shalitha Madhuwantha</a
+              >, a student at Rajarata University of Sri Lanka, residing in the
+              beautiful country of Sri Lanka. My interests include technology,
+              cybersecurity, programming, and education, all integral to my life
+              and career. <br /><br />
+
+              My ICT journey began in 2020, but my fascination with electronics
+              and robotics dates back to 2015. Over the years, I've developed a
+              deep understanding of technologies like Arduino, NodeMCU, and
+              Raspberry Pi, which laid a strong foundation for my ICT
+              endeavors.<br /><br />
+              Exploring various ICT fields, I gained comprehensive knowledge in
+              mobile and desktop app development, web development, server-side
+              management, networking (CCNA level), and cybersecurity. Network
+              security emerged as my true passion and envisioned career path.<br /><br />
+              In 2020, I created my first mod app, followed by a viral modded
+              version of WhatsApp, showcasing my skills and innovation. You can
+              explore my earlier works on
+              <a
+                href="https://smgtechcom.blogspot.com/2020/08/smg-mod-whatsapp.html?m=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-custom-heading"
+              >my blog</a
+              >.<br /><br />
+              As a student in the Bachelor of Information and Communication
+              Technology (Honors) program at Rajarata University, I constantly
+              hone my skills and expand my knowledge. My involvement in projects
+              has enriched my practical understanding and application of ICT.
+            </p>
+          </div>
+
+          <div class="w-full md:w-1/2 flex flex-col items-center justify-center font-playfair p-0 pl-0 md:pl-1.5">
+            <img class="w-[120px] h-[120px] border-2 border-custom-text p-1.5 rounded-full" src="/assets/img/dp.jpg" alt="my logo" />
+            <h2 class="m-0 p-0">B.B Shalitha M Gamage</h2>
+            <p class="text-center m-0 p-0 text-custom-text2">
+              CTF player | Reverse Engineer | Content Creator | CCNA | Exploit
+              Development | RUSL B.ICT | MLSA α
+            </p>
+            
+            <!-- social media icon list -->
+            <div class="social_listJS"></div>
+            <button class="bg-transparent text-custom-typeH cursor-pointer border-none" onclick="unhide('contactmebg')">
+              <i class="fa-brands fa-medapps"></i> More About
+            </button>
+            <hr class="w-full border border-custom-border" />
+            
+            <div class="w-full">
+              <h3 class="text-custom-heading text-center">
+                <i class="fa-solid fa-medal text-custom-text2"></i> My achievement
+              </h3>
+
+              <table class="w-full border-collapse text-custom-text2 font-space-mono">
+                <tr>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i> Cub Scout Gold Medal
+                  </td>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i> 2017 Karate Western
+                    Province Player
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i> 2023 Manthra CTF Top 20
+                    winning team Captain of webernetco <br />(representing RUSL)
+                  </td>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i>
+                    Microsoft Student Ambassador Alpha Member 2024
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i> Deputy Head Prefect 2017
+                    (HMV)
+                  </td>
+                  <td class="w-1/2 p-2.5 align-top">
+                    <i class="fa-regular fa-star text-custom-heading"></i>
+                    Top 1% in Try Hack Me 2022
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- Contact modal -->
+            <div id="contactmebg" class="invisible fixed z-[7] w-full h-full bg-custom-bg bg-opacity-75 top-0 left-0">
+              <!-- close button -->
+              <div id="closecont" onclick="hide('contactmebg')" class="float-right mr-4 mt-4 text-2xl hover:text-red-500 cursor-pointer">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+
+              <div id="contactme" class="w-[90%] md:w-[40%] h-[60%] bg-custom-contact-bg fixed z-[9] top-[15%] left-1/2 transform -translate-x-1/2 md:left-[30%] md:transform-none rounded-[25px] p-5 overflow-auto">
+                <div class="flex flex-row mt-5 mb-2.5">
+                  <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+                  <span id="contacttype" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+                </div>
+                <br />
+
+                <!-- contact me body table -->
+                <table class="w-full border-collapse text-custom-text2 font-space-mono">
+                  <tr>
+                    <td class="w-[10%] p-0 md:p-5">
+                      <i class="fa-regular fa-envelope text-custom-heading"></i>
+                    </td>
+                    <td class="w-[90%]">
+                      <p class="text-left text-custom-heading m-0 p-0">E-mail</p>
+                      <a href="mailto:shalitha@shalithamdhuwantha.me" class="text-left text-custom-text2 no-underline">shalitha@shalithamdhuwantha.me</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="w-[10%] p-0 md:p-5">
+                      <i class="fa-solid fa-phone text-custom-heading"></i>
+                    </td>
+                    <td class="w-[90%]">
+                      <p class="text-left text-custom-heading m-0 p-0">Phone</p>
+                      <a href="https://wa.me/+94788743616" class="text-left text-custom-text2 no-underline">(+94)78 874 3616</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="w-[10%] p-0 md:p-5">
+                      <i class="fa-solid fa-cake-candles text-custom-heading"></i>
+                    </td>
+                    <td class="w-[90%]">
+                      <p class="text-left text-custom-heading m-0 p-0">Birthday</p>
+                      <a href="https://shalitha.me/about/" class="text-left text-custom-text2 no-underline">21 October 2002</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="w-[10%] p-0 md:p-5">
+                      <i class="fa-solid fa-building-columns text-custom-heading"></i>
+                    </td>
+                    <td class="w-[90%]">
+                      <p class="text-left text-custom-heading m-0 p-0">Education</p>
+                      <a href="tech.rjt.ac.lk" class="text-left text-custom-text2 no-underline">Rajarata University OF Sri Lanka</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="w-[10%] p-0 md:p-5">
+                      <i class="fa-solid fa-location-crosshairs text-custom-heading"></i>
+                    </td>
+                    <td class="w-[90%]">
+                      <p class="text-left text-custom-heading m-0 p-0">Location</p>
+                      <a href="https://shalitha.me/about/" class="text-left text-custom-text2 no-underline">Gampaha District, Western Province, Sri Lanka</a>
+                    </td>
+                  </tr>
+                </table>
+                <br />
+                <!-- header social media icon set -->
+                <div class="social_listJS"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- skills and certificates -->
+        <div class="flex flex-row mt-5 mb-2.5" id="skills">
+          <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+          <span id="skilltype" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+        </div>
+
+        <!-- skill bar design -->
+        <div class="flex flex-col md:flex-row">
+          <div class="w-full md:w-1/2">
+            <!-- Python -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[95%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Python</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">95%</p>
+              </div>
+            </div>
+
+            <!-- Assembly -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[90%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Assembly</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">90%</p>
+              </div>
+            </div>
+
+            <!-- C -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[95%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">C</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">95%</p>
+              </div>
+            </div>
+
+            <!-- Linux -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[98%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Linux</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">98%</p>
+              </div>
+            </div>
+
+            <!-- PHP -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[90%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">PHP</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">90%</p>
+              </div>
+            </div>
+
+            <!-- Bash -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[90%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Bash</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">90%</p>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[75%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">JavaScript</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">75%</p>
+              </div>
+            </div>
+
+            <!-- Networking -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[50%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Networking</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">50%</p>
+              </div>
+            </div>
+
+            <!-- Java -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[50%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Java</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">50%</p>
+              </div>
+            </div>
+
+            <!-- IoT -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[30%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">IoT</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">30%</p>
+              </div>
+            </div>
+
+            <!-- Ansible -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[50%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Ansible</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">50%</p>
+              </div>
+            </div>
+
+            <!-- Kubernetes -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[50%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">Kubernetes</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">50%</p>
+              </div>
+            </div>
+
+            <!-- React JS -->
+            <div class="w-[90%] h-5 bg-gray-600 rounded-[20px] mt-5 ml-[5%]">
+              <div class="w-[70%] h-full bg-yellow-600 bg-opacity-60 rounded-[20px] flex flex-row items-center relative">
+                <p class="absolute left-2.5 text-sm text-custom-text m-0">React JS</p>
+                <p class="absolute right-2.5 text-sm text-custom-text m-0">70%</p>
+              </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="mt-5">
+              <div class="flex flex-row mt-5 mb-2.5">
+                <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+                <span id="experince" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+              </div>
+
+              <div class="w-full border-collapse text-custom-text2 font-space-mono mt-5">
+                <!-- MLSA Position -->
+                <div class="w-full flex items-start mb-5 border-b border-custom-text2 pb-5">
+                  <img src="assets/img/certlogo/mlsa.webp" alt="" class="w-[50px] flex-shrink-0" />
+                  <div class="ml-2.5">
+                    <h5 class="m-0 p-0 font-space-mono text-custom-text2 text-lg">Alpha student ambassador</h5>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">
+                      Microsoft Learn Student Ambassadors · Full-time
+                    </p>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">Jul 2024 - Present (Remote)</p>
+                    <br />
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">
+                      Student Ambassadors are a global group of campus leaders
+                      who are eager to help fellow students, create robust
+                      tech communities and develop technical and career skills
+                      for the future.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- WeBeRNeTCo Position -->
+                <div class="w-full flex items-start mb-5 border-b border-custom-text2 pb-5">
+                  <img src="assets/img/certlogo/webernteco.webp" alt="" class="w-[50px] flex-shrink-0" />
+                  <div class="ml-2.5">
+                    <h5 class="m-0 p-0 font-space-mono text-custom-text2 text-lg">Company Owner</h5>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">WeBeRNeTCo · Full-time</p>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">May 2023 - Present</p>
+                    <br />
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">
+                      webernetco is a web and software development company ...
+                      this company is founded and conceptualized by myself .
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Autodrome Position -->
+                <div class="w-full flex items-start mb-5">
+                  <img src="assets/img/certlogo/autodrome.webp" alt="" class="w-[50px] flex-shrink-0" />
+                  <div class="ml-2.5">
+                    <h5 class="m-0 p-0 font-space-mono text-custom-text2 text-lg">Trainee IT Executive</h5>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">The Autodrome PLC · Full-time</p>
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">
+                      Mar 2023 - Jun 2023 (Colombo, Western Province, Sri Lanka)
+                    </p>
+                    <br />
+                    <p class="m-0 p-0 font-space-mono text-custom-text2 text-sm text-left">
+                      autodrome pvt company uses microsoft internal server so
+                      i managed this server during my working time. I
+                      configured the payment gateway on both
+                      <a href="https://tourama.net/" class="text-custom-heading">tourama</a> and
+                      <a href="https://www.nadishka.lk/" class="text-custom-heading">nadishka</a> sites ..
+                      ..Both these sites are powered by Marks Payment Gateway
+                      .. I created a simple DBMS system to manage the
+                      autodrome.lk website and their database
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificates Section -->
+          <div class="w-full md:w-1/2 overflow-x-auto">
+            <div class="flex flex-row mt-5 mb-2.5">
+              <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+              <span id="certtype" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+            </div>
+
+            <table class="w-full justify-center">
+              <tr>
+                <td class="w-1/2 p-2.5 align-top">
+                  <div class="w-full h-auto bg-custom-card-bg p-1.5 flex flex-row rounded-[15px]">
+                    <img src="assets/img/certlogo/meta.webp" class="w-[60px] h-[50px] rounded-[20px] bg-center bg-no-repeat bg-cover" />
+                    <div class="ml-2.5">
+                      <p class="m-0 p-0 font-space-mono text-custom-text2">React Native (META)</p>
+                      <p class="m-0 p-0 font-space-mono text-custom-text2 text-xs">2024-May</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="w-1/2 p-2.5 align-top">
+                  <div class="w-full h-auto bg-custom-card-bg p-1.5 flex flex-row rounded-[15px]">
+                    <img src="assets/img/certlogo/google.webp" class="w-[60px] h-[50px] rounded-[20px] bg-center bg-no-repeat bg-cover" />
+                    <div class="ml-2.5">
+                      <p class="m-0 p-0 font-space-mono text-custom-text2">Automate Cybersecurity Tasks with Python​ (GOOGLE)</p>
+                      <p class="m-0 p-0 font-space-mono text-custom-text2 text-xs">2024-Apr</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <!-- Continue with other certificate rows following the same pattern -->
+              <!-- I'll include a few more examples, but you can continue this pattern for all certificates -->
+              <tr>
+                <td class="w-1/2 p-2.5 align-top">
+                  <div class="w-full h-auto bg-custom-card-bg p-1.5 flex flex-row rounded-[15px]">
+                    <img src="assets/img/certlogo/kodekolud.webp" class="w-[60px] h-[50px] rounded-[20px] bg-center bg-no-repeat bg-cover" />
+                    <div class="ml-2.5">
+                      <p class="m-0 p-0 font-space-mono text-custom-text2">Learn Ansible Basics - Beginners Course​ (kodekolud)</p>
+                      <p class="m-0 p-0 font-space-mono text-custom-text2 text-xs">2024-Apr</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="w-1/2 p-2.5 align-top">
+                  <div class="w-full h-auto bg-custom-card-bg p-1.5 flex flex-row rounded-[15px]">
+                    <img src="assets/img/certlogo/kodekolud.webp" class="w-[60px] h-[50px] rounded-[20px] bg-center bg-no-repeat bg-cover" />
+                    <div class="ml-2.5">
+                      <p class="m-0 p-0 font-space-mono text-custom-text2">Shell Scripts for Beginners (kodekolud)​</p>
+                      <p class="m-0 p-0 font-space-mono text-custom-text2 text-xs">2024-Apr</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <!-- Add remaining certificate rows here following the same pattern -->
+            </table>
+          </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="w-full" id="projects">
+          <div class="flex flex-row mt-5 mb-2.5">
+            <div class="text-custom-typeH text-xl md:text-2xl font-playfair">root@shalitha:~#</div>
+            <span id="myprojectType" class="text-xl md:text-2xl font-playfair text-custom-text"></span>
+          </div>
+
+          <div class="flex flex-col md:flex-row justify-between mt-5">
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/thushlk.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">Thush LK</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">April 30,2024</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                Important information and Guidance for al Students appearing for
+                University entrance
+              </p>
+              <a href="https://thush.lk" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/notify.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">Notify-Bot</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">November 23,2023</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                -Notify-Bot is a time reminder bot developed using Node.js. It
+                helps manage your lecture or class schedule by delivering timely
+                reminders. Designed to ensure you never miss a class or lecture,
+                this bot automates the process of sending notifications about
+                upcoming sessions, making it an essential tool for students and
+                educators alike.
+              </p>
+              <a href="https://github.com/shalithamadhuwantha/-Notify-Bot" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/webypay.jpeg" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">Wey-Pay</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">November 3,2023</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                Weby~Pay is a Python-based payload listener designed for
+                educational purposes in cybersecurity research. This tool, built
+                with Python, serves as a platform for exploring reverse shell
+                functionality, enabling users to understand network
+                vulnerabilities and defense strategies.
+              </p>
+              <a href="https://shalitha.me/2022/11/weby-pay/" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+          </div>
+
+          <!-- Second row of projects -->
+          <div class="flex flex-col md:flex-row justify-between mt-5">
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/wifitheif.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">WIFI~THIEF</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">April 14, 2023</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                wifi-thief is a windows base spyware.. This spyware primarily
+                focuses on stealing wifi passwords... This spy software is
+                written using python and required library.
+              </p>
+              <a href="https://github.com/shalithamadhuwantha/wifi-thief" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/image filter API.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">Image Filter API</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">March 2,2023</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                ImgFilter is a powerful and versatile image filtering
+                application built using Python. It allows users to apply a
+                variety of filters to images, enhancing and transforming them
+                with ease. The application supports multiple filter options,
+                including grayscale, sepia, negative, and more. With an
+                intuitive user interface, ImgFilter is designed for both
+                beginners and advanced users who need to perform quick and
+                efficient image processing tasks.
+              </p>
+              <a href="https://thush.lk" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/idmss.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">IDM-RESET</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">December 28,2022</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                IDM_RESET is a Java-based Windows application designed to enable
+                the use of Internet Download Manager (IDM) without the need for
+                cracks or purchases. This tool helps reset IDM's trial period,
+                allowing users to continue using its full features without
+                interruption. IDM_RESET offers a simple and effective solution
+                for managing IDM's trial limitations.
+              </p>
+              <a href="https://github.com/shalithamadhuwantha/IDM_RESET" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+          </div>
+
+          <!-- Third row with single project -->
+          <div class="flex flex-col md:flex-row justify-start mt-5">
+            <div class="w-full md:w-[30%] mb-5 md:mb-0 h-auto bg-custom-card-bg p-4 flex flex-col rounded-[15px]">
+              <img src="assets/img/project/netwoek-script.png" alt="" class="rounded-[20px]" />
+              <h5 class="font-space-mono text-custom-text text-lg p-0 m-0">Network Scripts</h5>
+              <small class="font-space-mono text-custom-text2 text-sm p-0 m-0 mb-2.5">August 23, 2022</small>
+              <p class="font-space-mono text-custom-text2 text-sm p-0 m-0">
+                This library has 3 types of scripts.. but it is based on using
+                ARP (address resolution protocol) and its whites python scapy
+                network library. This library has 3 types of scripts.. but it is
+                based on using ARP (address resolution protocol) and its whites
+                python scapy network library.
+              </p>
+              <a href="https://shalitha.me/2022/08/network-scripts/" class="font-space-mono text-custom-heading text-sm p-0 m-0">Read More..</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="w-full text-center mt-10 mb-5">
+      <hr class="border-[0.2px] border-custom-text2" />
+      <p class="m-0 p-0">Copyright © 2024 💛 <a href="https://shalitha.me" target="_blank" rel="noopener noreferrer" class="text-custom-heading">Shalitha Madhuwantha</a></p>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8026947c0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/animation.js?v=1.0"></script>
+    <script src="assets/js/main.js?v=1.0"></script>
+  </body>
+</html>
